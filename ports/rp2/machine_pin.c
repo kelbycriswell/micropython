@@ -43,6 +43,9 @@
 #define GPIO_MODE_OPEN_DRAIN (2)
 #define GPIO_MODE_ALT (3)
 
+// Set N_GPIOS const for machine_pin_obj_t array size 0 - 29 (30)
+#define N_GPIOS (30)
+
 // These can be or'd together.
 #define GPIO_PULL_UP (1)
 #define GPIO_PULL_DOWN (2)
